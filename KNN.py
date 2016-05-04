@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report
 
 def usage():
     print("Usage:")
-    print("python %s C:/Users/Prateek/Desktop/IUB/SA/Project/data/review_polarity/txt_sentoken" % sys.argv[0])
+    print("python %s C:/Users/Aditya/Desktop/IUB/SA/Project/data/review_polarity/txt_sentoken" % sys.argv[0])
 
 
 # if len(sys.argv) < 2:
@@ -17,7 +17,7 @@ def usage():
 #     print(sys.argv[1])
 #     sys.exit(1)
 
-data_dir = "C:/Users/Prateek/Desktop/IUB/SA/Project/data/review_polarity/txt_sentoken/"
+data_dir = "C:/Users/Aditya/Desktop/IUB/SA/Project/data/review_polarity/txt_sentoken/"
 classes = ['pos', 'neg']
 
 # Read the data
